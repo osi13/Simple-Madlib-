@@ -1,0 +1,84 @@
+
+<html>
+<head>
+<title>Madlib Redux by Omar Ismail</title>
+
+<style type="text/css">
+form {text-align: right;}
+	
+.madlibbox {       
+	background: #50BB8B;
+	border: #25201A 1px solid;
+	border-radius:8px;
+	padding: 10px;
+	font-size: medium;
+	margin: auto;
+	width: 340px;
+	font-family: Verdana, "Myriad Web", Syntax, sans-serif;	
+
+        }  
+
+body	{	
+	padding: 0;
+	border: 0;
+	background: #B4FFB2;
+	width:	auto;
+	text-align: center;
+	}		
+
+legend {padding: 2px; text-align: center; color: green;}
+fieldset
+		{border-color: #00FF22;}
+	
+h1 {padding: 10px; text-align: center; text-transform: uppercase; color: green;}
+
+h3 {padding: 10px; text-align: center; color: green;}
+p {padding: 2px; text-align: center; color: green;}
+</style>
+
+
+</head>
+<body>
+
+<div class = "content">
+
+
+ <h1> Madlib Redux</h1>
+ <h3> Welcome to Madlib Redux.
+    Please replace the following field with your first name and parts of speech in the following form.Please provide only alphanumeric character and one word.</h3>
+
+<div class = "madlibbox">
+<form action="result_test.php" method="post">
+ <fieldset>
+    <legend>Name:</legend>
+<p>First Name:<input type="text" name="name" value="Frank"></p> </br >
+</fieldset> </br>
+
+<fieldset>
+<legend>MadLibs:</legend>
+ </br>
+<p>Noun:</br><input type="text" name="noun" value="Marshmallow"></p>
+
+<p>Adjective:</br><input type="text" name="adjective" value="sad"></p>
+
+<p>Verb:</br><input type="text" name="verb" value="mourn"></p>
+
+<p>Adverb:<br /><input type="text" name="adverb" value="lonely"></p>
+
+
+ </fieldset>
+<input type="submit" name="madlib" value="Create story!">
+
+<h1> OR </h1>
+
+<input action="result_test.php" type="submit" name="lazy" value="I'm lazy" >
+
+</form>
+
+</div>
+</div>
+
+</body></html>
+
+
+  
